@@ -1,0 +1,48 @@
+import sys
+import subprocess
+
+def pip_install(packages):
+    """Install a list of packages using pip."""
+    for pkg in packages:
+        print(f"Installing {pkg} ...")
+        subprocess.check_call([sys.executable, "-m", "pip", "install", pkg])
+
+# Package groups
+groups = {
+    "core": [
+        "streamlit>=1.38,<2",
+        "pandas>=2.2,<3",
+        "numpy>=1.26,<3",
+        "joblib>=1.3,<2",
+    ],
+    "ml": [
+        "scikit-learn>=1.3,<2",
+    ],
+    "dev": [
+        "black>=24.0.0",
+        "isort>=5.13.0",
+    ]
+}
+
+print("Select package group to install:")
+print("1 - core")
+print("2 - ml")
+print("3 - dev")
+print("4 - all")
+
+choice = input("Enter your choice (1/2/3/4): ").strip()
+
+if choice == "1":
+    pip_install(groups["core"])
+elif choice == "2":
+    pip_install(groups["ml"])
+elif choice == "3":
+    pip_install(groups["dev"])
+elif choice == "4":
+    for name, pkgs in groups.items():
+        print(f"\nInstalling {name} packages")
+        pip_install(pkgs)
+else:
+    print("Invalid choice, no packages installed.")
+
+print("Done.")
