@@ -18,7 +18,7 @@ Once the tool is launched, you can easily input the parameters of your choice an
   
   *** Sometimes server.port 8501 may not work. Since this is the default port of the Streamlit library, please refer to the Streamlit documentation if you encounter error.
 
-  *** Keep in mind that the predictive model achieves an accuracy level of R² = 99.45%, which means the results should be interpreted as predictions.
+  *** Keep in mind that the predictive model achieves an accuracy level of R² = 99.93%, which means the results should be interpreted as predictions.
 
 
 Development Team:
