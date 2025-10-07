@@ -2,7 +2,7 @@
 
 Includes a GUI for entering caisson parameters to predict load capacity
 
-First, it should be clarified that the GUI runs through the Anaconda Prompt, therefore you need to install Anaconda beforehand. Or you can also use any other IDLE or can use CMD directly of window.
+First, it should be clarified that the GUI runs through the Anaconda Prompt, therefore you need to install Anaconda beforehand. Or you can also use any other IDLE or can use CMD directly of window. And all the files need to be downloaded.
 
 Second, you need to download the file thebestmodel.pkl to establish a "calculation factory." Once this factory is set up, any input data will be processed through it and return the corresponding prediction results.
 
