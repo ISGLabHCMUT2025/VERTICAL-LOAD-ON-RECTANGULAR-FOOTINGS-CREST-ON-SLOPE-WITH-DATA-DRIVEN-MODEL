@@ -27,7 +27,7 @@ Assoc. Prof.:   Van Qui Lai, Vietnam national university Ho Chi Minh city - Ho C
 
 Assoc. Prof.:   Suraparb Keawsawasvong, Thammasat School of Engineering, Thammasat University
 
-Dr. Sc.:        Trong Nghia Le, Ho Chi Minh City University of Transport
+Dr. Sc.:        Trong Nghia Le, Vietnam national university Ho Chi Minh city - Ho Chi Minh university of technology
 
 Dr. Sc.:        Duy Tan Tran, Ho Chi Minh City University of Transport
 
