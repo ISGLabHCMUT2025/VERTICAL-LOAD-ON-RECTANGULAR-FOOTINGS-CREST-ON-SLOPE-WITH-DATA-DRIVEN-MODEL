@@ -1,6 +1,6 @@
 # VERTICAL-LOAD-ON-RECTANGULAR-FOOTINGS-CREST-ON-SLOPE-WITH-DATA-DRIVEN-MODEL
 
-Includes a GUI for entering caisson parameters to predict load capacity
+Includes a GUI for entering rectangular footings on Hoek-Brown slope parameters to predict load capacity
 
 First, it should be clarified that the GUI runs through the Anaconda Prompt, therefore you need to install Anaconda beforehand. Or you can also use any other IDLE or can use CMD directly of window. And all the files need to be downloaded.
 
