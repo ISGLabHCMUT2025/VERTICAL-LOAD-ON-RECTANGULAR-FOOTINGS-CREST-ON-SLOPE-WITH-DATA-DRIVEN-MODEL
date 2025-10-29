@@ -6,7 +6,7 @@ First, it should be clarified that the GUI runs through the Anaconda Prompt, the
 
 Second, you need to download the file thebestmodel.pkl to establish a "calculation factory." Once this factory is set up, any input data will be processed through it and return the corresponding prediction results.
 
-Third, open the Anaconda Prompt and navigate or CMD with adminisrtator to the directory that contains the App.py file.
+Third, open the Anaconda Prompt and navigate or CMD with administrator to the directory that contains the App.py file.
 
 Finally, enter the following command in the prompt: "python -m streamlit run app.py --server.port 8501"
 
